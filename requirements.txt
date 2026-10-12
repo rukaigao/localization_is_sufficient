@@ -1,0 +1,13 @@
+numpy>=1.23
+scipy>=1.9
+scikit-learn>=1.1
+opencv-python>=4.6
+Pillow>=9.0
+matplotlib>=3.5
+torch>=2.0
+torchvision>=0.15
+
+# AnyLoc (https://github.com/AnyLoc/AnyLoc) is required for the descriptor
+# caches and for the SLAM+A* baseline's online query encoder. It is not a
+# pip package: clone it separately and install its own requirements
+# (see README.md, "External dependencies").

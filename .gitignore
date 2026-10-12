@@ -1,0 +1,7 @@
+data/
+*.pth
+*.ckpt
+*.mp4
+.env
+__pycache__/
+.DS_Store
